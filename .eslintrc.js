@@ -1,4 +1,5 @@
 module.exports = {
+  
   env: {
     browser: true,
     es2021: true,
@@ -6,6 +7,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'airbnb',
+    'next',
   ],
   parserOptions: {
     ecmaFeatures: {
